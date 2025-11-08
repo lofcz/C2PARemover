@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="C2PARemover.Cli/C2PARemover.Cli.csproj" />
+  <Project Path="C2PARemover.Tests/C2PARemover.Tests.csproj" />
+  <Project Path="C2PARemover/C2PARemover.csproj" />
+</Solution>

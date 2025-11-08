@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>c2paremover</ToolCommandName>
+    <PackageId>C2PARemover.Cli</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>C2PARemover Contributors</Authors>
+    <Description>A lightweight tool for detecting and removing Content Authenticity Initiative (C2PA) metadata from image files.</Description>
+    <PackageTags>c2pa;metadata;image;jpeg;png;privacy</PackageTags>
+    <RepositoryUrl>https://github.com/lofcz/C2PAremover</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\C2PARemover\C2PARemover.csproj" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
